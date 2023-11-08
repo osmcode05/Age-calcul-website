@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul Age website</title>
+    <!-- ===================== bootstrap css file ======================== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ===================== CSS file ======================== -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ===================== FONT AWESOME LINK CDN ======================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- ===================== MAIN SECTION ======================== -->
+    <section class="border d-flex flex-column overflow-hidden bg-white h-75">
+            <div class="inputs position-relative d-flex align-items-center justify-content-sm-start justify-content-center gap-4 ps-sm-5 fw-bold">
+              <form class="d-flex flex-column gap-2">
+                <label>DAY</label>
+                <input type="number" class="rounded fw-bolder p-md-3 p-2" placeholder="DD">
+                <p>Must be a, valid day</p>
+              </form>
+              <form class="d-flex flex-column gap-2">
+                <label>MONTH</label>
+                <input type="number" class="rounded fw-bolder p-md-3 p-2" placeholder="MM">
+                <p>Must be a, valid month</p>
+              </form>
+              <form class="d-flex flex-column gap-2">
+                <label>YEAR</label>
+                <input type="number" class="rounded fw-bolder p-md-3 p-2" placeholder="YYYY">
+                <p>Must be a, valid year</p>
+              </form>
+              <div class="arrow rounded-circle p-3 position-absolute">
+                <i class="fa-solid fa-arrow-right fa-rotate-90 text-light fs-3"></i>
+              </div>
+            </div>
+            <div class="border d-flex flex-column justify-content-center flex-grow-1 ps-5">
+              <h1><span class="fw-bolder">_ _</span> Years</h1>
+              <h1><span class="fw-bolder">_ _</span> Months</h1>
+              <h1><span class="fw-bolder">_ _</span> Days</h1>
+            </div>
+    </section>
+    <!-- ===================== bootstrap js file ======================== -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- ===================== js file ======================== -->
+    <script src="js/main.js"></script>
+</body>
+</html>
