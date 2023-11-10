@@ -3,7 +3,7 @@ let inputs = document.querySelectorAll('input'),
     ps = document.querySelectorAll('p'),
     spans = document.querySelectorAll('span'),
     button = document.querySelector('button');
-    
+// < ================ get total age ================ >
 button.addEventListener('click', () => {
     let num0 = inputs[0].value || 1, //day input
         num1 = inputs[1].value || 1, //month input
@@ -40,8 +40,7 @@ button.addEventListener('click', () => {
         }
     }
 });
-
-//remove error class
+// < ================ remove error class ================ >
 inputs.forEach(inpt => {
     inpt.onkeyup = ()=>{
         for (let i = 0; i < inputs.length; i++) {
