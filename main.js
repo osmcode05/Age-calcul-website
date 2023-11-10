@@ -2,9 +2,9 @@ let inputs = document.querySelectorAll('input'),
     label = document.querySelectorAll('label'),
     ps = document.querySelectorAll('p'),
     spans = document.querySelectorAll('span'),
-    arrow = document.querySelector('.arrow');
+    button = document.querySelector('button');
     
-arrow.addEventListener('click', () => {
+button.addEventListener('click', () => {
     let num0 = inputs[0].value || 1, //day input
         num1 = inputs[1].value || 1, //month input
         num2 = inputs[2].value; //year input
